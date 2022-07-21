@@ -41,5 +41,4 @@ public class Contact {
     public String getFirstName() {
         return firstName;
     }
-
 }

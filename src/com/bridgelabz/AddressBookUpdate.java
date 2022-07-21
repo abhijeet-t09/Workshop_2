@@ -34,13 +34,13 @@ public class AddressBookUpdate {
     }
 
     public void editContact(){
+
         if(arrayList.isEmpty()){
-            System.out.println("No contact in addressBook to edit");
+            System.out.println("Addressbook is Empty");
         }
         else{
             System.out.println("Enter First Name");
             String firstName = scanner.next();
-
 
             boolean found = false;
 
