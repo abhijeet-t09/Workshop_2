@@ -1,7 +1,5 @@
 package com.bridgelabz;
-
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class AddressBookUpdate {
     ArrayList<Contact> arrayList = new ArrayList<>();
@@ -24,7 +22,7 @@ public class AddressBookUpdate {
         contact.setState(scanner.next());
 
         System.out.print("Enter Zip-code: ");
-        contact.setPinCode(scanner.next());
+        contact.setZipCode(scanner.next());
 
         System.out.print("Enter Phone Number: ");
         contact.setPhoneNumber(scanner.next());
@@ -42,6 +40,7 @@ public class AddressBookUpdate {
         else{
             System.out.println("Enter First Name");
             String firstName = scanner.next();
+
 
             boolean found = false;
 
@@ -64,7 +63,7 @@ public class AddressBookUpdate {
                     contact.setState(scanner.next());
 
                     System.out.print("Enter Zip-code:");
-                    contact.setPinCode(scanner.next());
+                    contact.setZipCode(scanner.next());
 
                     System.out.print("Enter Phone Number");
                     contact.setPhoneNumber(scanner.next());

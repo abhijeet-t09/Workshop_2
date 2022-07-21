@@ -24,12 +24,15 @@ public class AddressBook {
                 case 1:
                     addressBook.addContact();
                     break;
+
                 case 2:
                     addressBook.editContact();
                     break;
+
                 case 3:
                     exit = false;
                     break;
+
                 default:
                     break;
             }

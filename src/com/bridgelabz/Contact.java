@@ -10,19 +10,6 @@ public class Contact {
     private String phoneNumber;
     private String email;
 
-    public Contact(String firstName, String lastName, String city, String state, String pinCode, String phoneNumber, String email) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.city = city;
-        this.state = state;
-        this.zipCode = pinCode;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-    }
-
-    public Contact() {
-    }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -39,7 +26,7 @@ public class Contact {
         this.state = state;
     }
 
-    public void setPinCode(String zipCode) {
+    public void setZipCode(String zipCode) {
         this.zipCode = zipCode;
     }
 
