@@ -16,7 +16,7 @@ public class AddressBook {
             System.out.println("Select Operation....");
             System.out.println("1. Enter Contact");
             System.out.println("2. Edit Contact");
-            System.out.println("Exit Address Book");
+            System.out.println("3. Exit Address Book");
 
             int option = sc.nextInt();
 
